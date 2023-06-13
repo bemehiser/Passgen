@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{passgen}
-  s.version = "1.1.2"
+  s.version = "1.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Erik Lindblad (CrypticE)", "Ronald Brachetti(rbecher)", "Ken Spencer (IotaSpencer)"]

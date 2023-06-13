@@ -299,7 +299,11 @@ module Passgen
   end
 
   def self.symbol_tokens
-    %w{! @ # $ % & / ( ) + ? *}
+    if @options[:symbols].is_a?(Array)
+      @options[:symbols]
+    else
+      %w{! @ # $ % & / ( ) + ? *}
+    end
   end
 
   def self.use_lowercase?

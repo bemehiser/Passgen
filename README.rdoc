@@ -90,7 +90,7 @@ You check the strength of a password by calling analyze:
 * true - Use symbols in the generated password.
 * false - Do not use symbols in the generated password.
 * :only - Only use symbols in the generated password.
-* :list - A string with the symbols to use. Not implemented yet.
+* :list - A string with the symbols to use.
 
 === :number => integer
 Number of passwords to generate. If >1 the result is an Array.
